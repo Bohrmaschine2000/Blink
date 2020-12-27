@@ -1,0 +1,208 @@
+{
+  "uuid": "c7b42fe9ca3b1ab924cbb2845b9e0d6d",
+  "path": "Offline/Blink",
+  "name": "Blink",
+  "content": "",
+  "created_at": "2020-12-05 12:26:49",
+  "updated_at": "2020-12-27 19:51:33",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a13b5d9bdf339afb0ffd0c7ca2718012",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "13f960f6ce424a0f1233d9516a6a8162": 1,
+        "6ba6d53a1fcb44caa5dfec06c8f86078": 1,
+        "5cbe824183374fac8e4c1ae848199ce3": 4,
+        "93b44d62463c4c9c82dd7108c8ee7d73": 1,
+        "0742d5983a1448cdb4f783c33bed4c29": 1,
+        "3aaeeb88af254713b466c60ff0aa070d": 2,
+        "ca94110f4544769d36adda4b0515e409": 1,
+        "6c2bedbae9fbd358441dfb9948555b9c": 2,
+        "3f35f3dcad3db64e96a2c897be5b0528": 4
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "UK-B0228-G5-160-JZ",
+          2,
+          "KEY-SMD_4P-L6.0-W6.0-P4.50-LS11.0",
+          "SW2,SW4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C620316",
+            "BOM_Manufacturer": "USAKRO",
+            "BOM_Manufacturer Part": "UK-B0228-G5-160-JZ",
+            "BOM_JLCPCB SMD": "Yes",
+            "puuid": "3fda5ece3e4c452f97db9e8a8a998a5e",
+            "uuid": "3aaeeb88af254713b466c60ff0aa070d"
+          }
+        ],
+        [
+          "220",
+          4,
+          "R0402",
+          "R3,R2,R1,R4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGF2200TCE",
+            "BOM_Supplier Part": "C25091",
+            "BOM_JLCPCB SMD": "Yes",
+            "puuid": "cea456c24ca24165b176bcf9114a7b29",
+            "uuid": "3f35f3dcad3db64e96a2c897be5b0528"
+          }
+        ],
+        [
+          "LED-0603_R",
+          4,
+          "LED0603_RED",
+          "LED1,LED3,LED2,LED4",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "BOM_Supplier Part": "C72044",
+            "BOM_Supplier": "LCSC",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "47uF",
+          1,
+          "CAP-SMD_BD6.3-L6.6-W6.6-RD",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C249976",
+            "BOM_Manufacturer": "Lelon",
+            "BOM_Manufacturer Part": "VZS470M1E0606-TRO",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "5332c614f5204743ba9a8e4549223bfb",
+            "uuid": "6ba6d53a1fcb44caa5dfec06c8f86078"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R0402",
+          "R5,R6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGF1002TCE",
+            "BOM_Supplier Part": "C25744",
+            "BOM_JLCPCB SMD": "Yes",
+            "puuid": "cea456c24ca24165b176bcf9114a7b29",
+            "uuid": "6c2bedbae9fbd358441dfb9948555b9c"
+          }
+        ],
+        [
+          "CR2032-BS-6-1",
+          1,
+          "BAT-TH_CR2032-BS-6-1",
+          "B1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Q&J",
+            "BOM_Manufacturer Part": "CR2032-BS-6-1",
+            "BOM_Supplier Part": "C70377",
+            "BOM_JLCPCB SMD": "Yes",
+            "puuid": "f5467e8e7dd44992b9e867a26d36eec1",
+            "uuid": "13f960f6ce424a0f1233d9516a6a8162"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x6",
+          1,
+          "HDR-M-2.54_1X6",
+          "J1",
+          {
+            "BOM_Supplier Part": "C190819",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "df3ca37cb13d499cb713e9aa6fdd0c7b",
+            "uuid": "93b44d62463c4c9c82dd7108c8ee7d73"
+          }
+        ],
+        [
+          "ATTINY85-20SU",
+          1,
+          "SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MICROCHIP",
+            "BOM_Manufacturer Part": "ATTINY85-20SU",
+            "BOM_Supplier Part": "C89852",
+            "BOM_JLCPCB SMD": "Yes",
+            "puuid": "de8599bb99f14253b8909bb7e603a704",
+            "uuid": "0742d5983a1448cdb4f783c33bed4c29"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0402",
+          "C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL05B104KO5NNNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C1525",
+            "BOM_JLCPCB SMD": "Yes",
+            "puuid": "f8eca159cd18407f9d5df374a1c2badf",
+            "uuid": "ca94110f4544769d36adda4b0515e409"
+          }
+        ]
+      ],
+      "updateTime": 1609092882,
+      "createTime": 1607169103,
+      "histories": [],
+      "created_at": "2020-12-05 12:51:43",
+      "updated_at": "2020-12-27 19:14:42"
+    },
+    {
+      "uuid": "8ef109b8790b6054276bfb5a17a434ff",
+      "puuid": "c7b42fe9ca3b1ab924cbb2845b9e0d6d",
+      "title": "PCB_2020-12-27_16-35-34",
+      "filename": "PCB_2020-12-27_16-35-34.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3fda5ece3e4c452f97db9e8a8a998a5e": 2,
+        "f5467e8e7dd44992b9e867a26d36eec1": 1,
+        "df3ca37cb13d499cb713e9aa6fdd0c7b": 1,
+        "de8599bb99f14253b8909bb7e603a704": 1,
+        "cea456c24ca24165b176bcf9114a7b29": 6,
+        "1efb3a885b5b4aecb6d41221a8f4d86b": 4,
+        "5332c614f5204743ba9a8e4549223bfb": 1,
+        "f8eca159cd18407f9d5df374a1c2badf": 1
+      },
+      "BOM": [],
+      "updateTime": 1609094487,
+      "createTime": 1609083334,
+      "histories": [],
+      "created_at": "2020-12-27 16:35:34",
+      "updated_at": "2020-12-27 19:41:27"
+    }
+  ],
+  "sort": [],
+  "title": "Blink",
+  "foldername": "Blink",
+  "schfilename": "Blink.json",
+  "schfilemtime": 1609092882471
+}
